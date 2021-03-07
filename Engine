@@ -1,0 +1,9 @@
+package lab05;
+
+public class Engine {
+
+    String Engine;
+    public Engine(String Engine) {
+        this.Engine = Engine;
+    }
+}
