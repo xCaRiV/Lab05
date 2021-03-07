@@ -1,0 +1,9 @@
+package lab05;
+
+public class Prezentacja {
+    public static void main(String[] args) {
+        Vehicle Vehicle = new Vehicle("Ferrari", new Size("13M"), new Color("red"), new Engine("700"));
+
+        System.out.print(Vehicle);
+    }
+}
