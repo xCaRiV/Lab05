@@ -1,0 +1,9 @@
+package lab05;
+
+public class Color {
+
+    String Color;
+    public Color(String Color) {
+        this.Color = Color;
+    }
+}
