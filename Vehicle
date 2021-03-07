@@ -1,0 +1,23 @@
+package lab05;
+
+public class Vehicle {
+
+    String Vehicle;
+    Size Size;
+    Color Color;
+    Engine Engine;
+
+    public Vehicle(String Vehicle, Size Size, Color Color, Engine Engine) {
+        this.Vehicle = Vehicle;
+        this.Size = Size;
+        this.Color = Color;
+        this.Engine = Engine;
+    }
+
+    @Override
+
+    public String toString(){
+        return "Model: " + Vehicle + "Size: " + Size.Size + "Color: " + Color.Color + "Engine: " + Engine.Engine;
+    }
+
+}
