@@ -1,0 +1,10 @@
+package lab05;
+
+public class Size {
+
+    int Size;
+
+    public Size(int Size) {
+        this.Size = Size;
+    }
+}
